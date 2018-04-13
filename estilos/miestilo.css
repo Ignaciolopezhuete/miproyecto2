@@ -1,0 +1,56 @@
+p{
+    font-size: 50px;
+}
+
+#parrafo1{
+    color: green;
+}
+
+.color{
+    color: red;
+}
+
+.boton{
+     text-align: center;
+     display: inline-block; /* pone lo escrito en linea horizontal*/
+     border-style: solid;
+     border-radius: 60px; /*border-radius para redondear*/
+     margin: 20px; /*espacio entre varias palabras escritas*/
+     padding: 50px; /*espacio entre lo escrito y los bordes*/
+}
+
+nav ul li:hover{
+    background-color: yellow;
+    /*hover para cuando pasas el cursor*/
+}
+
+.navegador{
+    text-align: left;
+    font-size: 30px;
+    background: blue;
+}
+
+.titulo{
+    text-align: center;
+    font-family:fuente;
+}
+
+@font-face{
+    font-family:'fuente';
+    src:url("../fuentes/disney.ttf");
+    /*tipo de letra*/
+}
+
+#seccion{
+    float:left;
+}
+
+#lateral{
+    float:right;
+}
+
+#pie{
+    clear:both;
+}
+
+

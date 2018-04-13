@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang=”es”>
+<head>
+ <title>Este texto es el título del documento</title>
+ <script src="java/funciones.js"></script>
+</head>
+<body>
+   <div id="hola">
+      <p onclick="concatenar()">Hacer Clic</p>
+      <p>No puede hacer clic</p>
+ 
+      <p id="parrafo1"> esto es un parrafo en negrita</p>
+      <br>
+      <p id="nombre">nacho</p>
+      <br>
+      <p id="apellido">lopez</p>
+      <p id="nombrecompleto"></p>
+      <br>
+      
+      <p>listado de coches:</p>
+      <p id="listadocoches"></p>
+      <p onclick="muestracoches()">Hacer Clic</p>
+      
+      <p>listado notas:</p>
+      <p id="listadonotas"></p>
+      <p onclick="muestranotas()">Hacer Clic</p>
+      <br>
+      
+      
+      <p>Empleados:</p>
+      <p onclick="mostrarempleados()">Hacer Clic</p>
+      <p id="resultado"></p>
+      
+     
+      <p primer numero</p>
+      <br>
+      <input id="numero1"type="number" name="numero1"><!-- se pone id en input para que sepa lo que tiene que coger-->
+      <br>
+      <p segundo numero</p>
+      <input id="numero2"type="number" name="numero2">
+      <br>
+      <input type="button" value="Suma" onclick=sumar()><!--se pone button para que no borre lo escrito-->
+      
+      <input type="button" value="Resta" onclick=restar()><!--se pone on click para que al cliquear realice la funcion-->
+      
+      <input type="button" value="multiplicacion" onclick=multiplicar()>
+      
+      <input type="button" value="division" onclick=dividir()>
+      
+      <input type="button" value="potencia" onclick=potencia()>
+      
+      <input type="button" value="parimpar" onclick=parimpar()>
+      <p resultado</p>
+      <input id="resultado"type="number" value="resultado">
+    
+ </div>
+</body>
+</html> 
